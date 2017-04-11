@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using CardGame21;
-
-namespace CardGame
+namespace CardGame21
 {
-    class Program
+    enum Suit
     {
-        static void Main(string[] args)
-        {
-        }
+        Club,
+        Diamond,
+        Heart,
+        Spades
     }
 }

@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using CardGame21;
-
-namespace CardGame
+namespace CardGame21
 {
-    class Program
+    public struct Card
     {
-        static void Main(string[] args)
-        {
-        }
+        Rank rank;
+        Suit suit;
     }
 }
