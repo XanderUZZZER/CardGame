@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardGame21
 {
-    class PlayerHuman : Player
+    public class PlayerHuman : Player
     {
         public PlayerHuman()
         {
