@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CardGame21
 {
-    public class PlayerAI : Player
+    public enum GameState
     {
-        public PlayerAI()
-        {
-            this.Hand = new Hand(isFirst: true);
-        }
+        Unknown,
+        AIWon,
+        HumanWon,
+        Draw
     }
 }

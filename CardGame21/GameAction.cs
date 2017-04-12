@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CardGame21
 {
-    public class PlayerHuman : Player
+    public enum GameAction
     {
-        public PlayerHuman()
-        {
-            this.Hand = new Hand(isFirst: false);
-        }
+        Stop,
+        Play,
     }
 }

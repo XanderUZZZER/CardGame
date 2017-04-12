@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardGame21
 {
-    enum Rank
+    public enum Rank
     {
         Six = 6,
         Seven = 7,

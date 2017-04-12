@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardGame21
 {
-    enum Suit
+    public enum Suit
     {
         Club,
         Diamond,

@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace CardGame21
 {
-    public abstract class Player
+    public class Player
     {
-        protected Player()
-        {                
-        }
+        public Hand Hand { get; protected set; } //карты на руках игроков 
+        public bool isFirst { get; private set; }
 
-        public Hand Hand { get; protected set; }
+        public Player(bool isFirst)
+        {
+            this.isFirst = isFirst;
+            this.Hand = new Hand();
+        }
 
     }
 }

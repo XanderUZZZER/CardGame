@@ -8,7 +8,7 @@ namespace CardGame21
 {
     public struct Card
     {
-        Rank rank;
-        Suit suit;
+        public Rank rank;
+        public Suit suit;
     }
 }
