@@ -37,7 +37,7 @@ namespace CardGame
 
                 while (Game.AllowedAction == GameAction.Play)
                 {
-                    Console.Write("Want additional card (y/n)? -- \t");
+                    Console.Write("\nWant additional card (y/n)? -- \t");
                     if (Console.ReadLine() == "y")
                         Game.AskCard();
                     else
